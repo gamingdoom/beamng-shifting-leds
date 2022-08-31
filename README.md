@@ -8,6 +8,8 @@ A utility that allows the G29's shifter leds to light up based on the car's rpm.
 - NodeJS
 - node-hid
 # Usage
+Note: This program has only been tested on Linux.
+
 1. Download `beamng-shifting-leds.js`.
 
 2. Go into a terminal in the folder where you downloaded `beamng-shifting-leds.js` and run `node beamng-shifting-leds.js`
