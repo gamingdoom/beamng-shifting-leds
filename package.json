@@ -1,0 +1,19 @@
+{
+  "name": "beamng-shifting-leds",
+  "version": "1.0.0",
+  "description": "Allow beamng drive to use shifting leds on g29",
+  "main": "beamng-shifting-leds.js",
+  "scripts": {
+    "test": "node beamng-shifting-leds.js"
+  },
+  "keywords": [
+    "beamngdrive",
+    "g29",
+    "linux"
+  ],
+  "author": "gamingdoom",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-hid": "^2.1.1"
+  }
+}
