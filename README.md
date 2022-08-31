@@ -2,6 +2,8 @@
 
 A utility that allows the G29's shifter leds to light up based on the car's rpm.
 
+![Shifting Leds on the G29](https://raw.githubusercontent.com/d4rk/ac_shifting_leds/main/images/shifting_leds.png)
+
 # Requirements
 - NodeJS
 - node-hid
@@ -17,5 +19,5 @@ A utility that allows the G29's shifter leds to light up based on the car's rpm.
 5. Enter the max RPM of the car that you are driving into the terminal and press enter. You can set the max RPM of your car anytime.
 
 # Credits
-- https://github.com/d4rk/ac_shifting_leds for the code to control the leds.
+- https://github.com/d4rk/ac_shifting_leds for the code to control the leds and inspiration for the readme.
 - https://github.com/fuelsoft/out-gauge-cluster for the information on how outgauge works.
