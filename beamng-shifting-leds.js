@@ -11,6 +11,7 @@ const ADDRESS = "127.0.0.1";
 var rpm;
 var maxrpm = 7000;
 var g29;
+var firstTime = true;
 
 process.stdin.on('data', data => {
   maxrpm = Number(data.toString());
@@ -34,6 +35,10 @@ if (g29 == undefined) {
 }
 
 socket.on("message", (msg, rinfo) => {
+    if (firstTime == true){
+      console.log("Connected to BeamNG.Drive");
+      firstTime = false;
+    }
     rpm = new Float32Array(new Uint8Array([msg[16], msg[17], msg[18], msg[19]]).buffer)[0];
     updateLeds();
 });
