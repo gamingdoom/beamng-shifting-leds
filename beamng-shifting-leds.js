@@ -5,7 +5,6 @@
 const hid = require('node-hid');
 const dgram = require('dgram');
 const { abort, exit } = require('process');
-const {setTimeout} = require('timers/promises');
 
 const socket = dgram.createSocket('udp4');
 const PORT = 5555;
